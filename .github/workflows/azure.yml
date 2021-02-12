@@ -3,7 +3,7 @@ name: Deploy para o azure
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build-and-deploy:
